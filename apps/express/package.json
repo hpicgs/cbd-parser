@@ -1,5 +1,5 @@
 {
-    "name": "@cdb-parser/express",
+    "name": "@cbd-parser/express",
     "version": "1.0.0",
     "private": true,
     "type": "module",
@@ -12,7 +12,7 @@
     "license": "MIT",
     "dependencies": {
         "@cbd-parser/data": "1.0.0",
-        "@hpicgs/cbd-parser": "^0.3.0",
+        "@hpicgs/cbd-parser": "^0.9.0",
         "express": "^4.17.3"
     },
     "scripts": {

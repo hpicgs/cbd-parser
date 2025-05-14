@@ -16,7 +16,7 @@
     },
     "dependencies": {
         "@cbd-parser/data": "1.0.0",
-        "@hpicgs/cbd-parser": "^0.3.0",
+        "@hpicgs/cbd-parser": "^0.9.0",
         "pako": "^2.0.4"
     },
     "devDependencies": {

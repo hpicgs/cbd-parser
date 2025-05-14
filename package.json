@@ -1,6 +1,6 @@
 {
     "name": "cbd-parser",
-    "version": "1.1.0",
+    "version": "0.9.0",
     "description": "Column-based Data Parser: Multi-threaded tabular data parsing using web workers, e.g., for CSV files or spreadsheets.",
     "workspaces": [
         "apps/*",

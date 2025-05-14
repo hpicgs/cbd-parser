@@ -2,7 +2,7 @@
 
 Quick, multi-threaded parser of column-based data - for example CSV files or spreadsheets - with focus on handling huge files.
 
-![build+lint badge](https://github.com/hpicgs/cdb-parser/actions/workflows/ci.yml/badge.svg)
+![build+lint badge](https://github.com/hpicgs/cbd-parser/actions/workflows/ci.yml/badge.svg)
 
 ## Features
 
@@ -16,7 +16,7 @@ Quick, multi-threaded parser of column-based data - for example CSV files or spr
 
 ## Usage
 
-See the [`apps` directory](https://github.com/hpicgs/cdb-parser/tree/master/apps) for multiple example implementations using the parser.
+See the [`apps` directory](https://github.com/hpicgs/cbd-parser/tree/master/apps) for multiple example implementations using the parser.
 
 ## Note regarding huge files on Google Chrome
 
