@@ -4,9 +4,9 @@ import { build } from 'vite';
 import { resolveFile } from '../../../scripts/helper.js';
 
 const artifacts = [
-    { name: 'csv', entry: resolveFile('./packages/cdb-parser/src/csv.ts') },
-    { name: 'main', entry: resolveFile('./packages/cdb-parser/src/worker/main/worker.ts') },
-    { name: 'sub', entry: resolveFile('./packages/cdb-parser/src/worker/sub/worker.ts') },
+    { name: 'cbd', entry: resolveFile('./packages/cbd-parser/src/cbd.ts') },
+    { name: 'main', entry: resolveFile('./packages/cbd-parser/src/worker/main/worker.ts') },
+    { name: 'sub', entry: resolveFile('./packages/cbd-parser/src/worker/sub/worker.ts') },
 ];
 
 const main = async () => {
@@ -19,7 +19,7 @@ const main = async () => {
                 outDir: 'lib',
                 lib: {
                     entry,
-                    name: 'csv',
+                    name: 'cbd',
                     formats: ['es'],
                     fileName: () => `${name}.js`,
                 },

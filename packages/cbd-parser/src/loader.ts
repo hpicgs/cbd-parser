@@ -32,7 +32,7 @@ export class Loader {
     protected _worker: Worker;
     protected _perfMon = new PerfMon();
 
-    protected openStream(result: ReadableStreamDefaultReadResult<Uint8Array>): ColumnHeader[] {
+    protected openStream(result: ReadableStreamReadResult<Uint8Array>): ColumnHeader[] {
         if (!result.value) {
             if (this._options.verbose) console.log('received no data');
             throw new Error('No data');
@@ -61,7 +61,7 @@ export class Loader {
         await this.readStream(result);
     }
 
-    protected async readStream(result: ReadableStreamDefaultReadResult<Uint8Array>): Promise<void> {
+    protected async readStream(result: ReadableStreamReadResult<Uint8Array>): Promise<void> {
         if (result.done) {
             if (this._options.verbose) console.log('stream ended');
             this.sendNoMoreChunks();
