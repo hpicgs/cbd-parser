@@ -1,5 +1,5 @@
 {
-    "extends": "./packages/csv-parser/tsconfig.json",
+    "extends": "./packages/cbd-parser/tsconfig.json",
     "include": [
         "apps/**/*.js",
         "apps/**/*.ts",

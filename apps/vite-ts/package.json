@@ -1,11 +1,11 @@
 {
-    "name": "@csv-parser/vite-ts",
+    "name": "@cdb-parser/vite-ts",
     "version": "1.0.0",
     "private": true,
     "type": "module",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/lukaswagner/csv-parser.git",
+        "url": "git+https://github.com/hpicgs/cdb-parser.git",
         "directory": "apps/vite-ts"
     },
     "author": "Lukas Wagner",
@@ -18,10 +18,10 @@
     "dependencies": {
         "@chakra-ui/icons": "^1.1.7",
         "@chakra-ui/react": "^1.8.6",
-        "@csv-parser/data": "1.0.0",
+        "@cdb-parser/data": "1.0.0",
         "@emotion/react": "^11.8.2",
         "@emotion/styled": "^11.8.1",
-        "@lukaswagner/csv-parser": "^0.3.0",
+        "@hpicgs/cbd-parser": "^0.3.0",
         "framer-motion": "^6.2.8",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",

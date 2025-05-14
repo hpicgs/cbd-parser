@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Button, Center, Spinner, Stack } from '@chakra-ui/react';
-import { ColumnHeader, DataType } from '@lukaswagner/csv-parser';
+import { ColumnHeader, DataType } from '@hpicgs/cbd-parser';
 import { useRecoilValue, useSetRecoilState } from 'recoil';
 
 import { loader } from '../api/loader';

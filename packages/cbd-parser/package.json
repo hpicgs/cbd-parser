@@ -1,11 +1,11 @@
 {
-    "name": "@lukaswagner/csv-parser",
-    "version": "0.3.0",
-    "description": "Multi-threaded CSV parser using web workers.",
+    "name": "@hpicgs/cbd-parser",
+    "version": "0.9.0",
+    "description": "Column-based Data Parser: Multi-threaded tabular data parsing using web workers, e.g., for CSV files or spreadsheets.",
     "type": "module",
-    "module": "./lib/csv.js",
-    "exports": "./lib/csv.js",
-    "types": "./lib/types/csv.d.ts",
+    "module": "./lib/cbd.js",
+    "exports": "./lib/cbd.js",
+    "types": "./lib/types/cbd.d.ts",
     "files": [
         "lib",
         "CHANGELOG.md"
@@ -21,21 +21,22 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/lukaswagner/csv-parser.git"
+        "url": "git+https://github.com/hpicgs/cbd-parser.git"
     },
     "keywords": [
         "csv",
+        "tabular data",
         "parser",
-        "threaded",
+        "multithreaded",
         "worker",
         "parallel"
     ],
-    "author": "Lukas Wagner",
+    "author": "Lukas Wagner, Willy Scheibel",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/lukaswagner/csv-parser/issues"
+        "url": "https://github.com/hpicgs/cbd-parser/issues"
     },
-    "homepage": "https://github.com/lukaswagner/csv-parser#readme",
+    "homepage": "https://github.com/hpicgs/cbd-parser#readme",
     "engines": {
         "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
     },

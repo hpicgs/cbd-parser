@@ -8,6 +8,6 @@ const options = {
     },
 };
 app.use(express.static('.', options));
-app.use(express.static('../../packages/csv-parser/lib', options));
+app.use(express.static('../../packages/cbd-parser/lib', options));
 app.use(express.static('../data', options));
 app.listen(8080);

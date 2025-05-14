@@ -1,4 +1,4 @@
-import conf from '@csv-parser/data/conf.json';
+import conf from '@cbd-parser/data/conf.json';
 import {
     Column,
     createDataSources,
@@ -6,7 +6,7 @@ import {
     isNumber,
     LoadStatistics,
     NumberColumn,
-} from '@lukaswagner/csv-parser';
+} from '@hpicgs/cbd-parser';
 import pako from 'pako';
 
 const googleSheetAvailable =

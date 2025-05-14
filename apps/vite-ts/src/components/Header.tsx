@@ -1,5 +1,5 @@
 import { Button, Flex, Spacer, Text } from '@chakra-ui/react';
-import conf from '@csv-parser/data/conf.json';
+import conf from '@cbd-parser/data/conf.json';
 import { useResetRecoilState, useSetRecoilState } from 'recoil';
 
 import {

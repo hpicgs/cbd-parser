@@ -1,4 +1,4 @@
-import type { Column, ColumnHeader, LoadStatistics } from '@lukaswagner/csv-parser';
+import type { Column, ColumnHeader, LoadStatistics } from '@hpicgs/cbd-parser';
 import { atom, selector } from 'recoil';
 
 import { isRemote, isSheet } from '../utils/datasources';

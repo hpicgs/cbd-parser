@@ -12,7 +12,7 @@ import {
     Thead,
     Tr,
 } from '@chakra-ui/react';
-import { DataType, NumberColumn } from '@lukaswagner/csv-parser';
+import { DataType, NumberColumn } from '@hpicgs/cbd-parser';
 import { useRecoilState, useRecoilValue } from 'recoil';
 
 import { loader } from '../api/loader';

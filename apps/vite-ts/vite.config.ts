@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 export default defineConfig({
     server: {
         fs: {
-            allow: ['.', '../../packages/csv-parser/lib'],
+            allow: ['.', '../../packages/cbd-parser/lib'],
         },
         headers: {
             'Cross-Origin-Opener-Policy': 'same-origin',

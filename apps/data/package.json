@@ -1,11 +1,11 @@
 {
-    "name": "@csv-parser/data",
+    "name": "@cbd-parser/data",
     "version": "1.0.0",
     "private": true,
     "type": "module",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/lukaswagner/csv-parser.git",
+        "url": "git+https://github.com/hpicgs/cbd-parser.git",
         "directory": "apps/data"
     },
     "author": "Lukas Wagner",

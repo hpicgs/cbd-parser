@@ -1,11 +1,11 @@
 {
-    "name": "@csv-parser/webpack-ts",
+    "name": "@cbd-parser/webpack-ts",
     "version": "1.0.0",
     "private": true,
     "type": "module",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/lukaswagner/csv-parser.git",
+        "url": "git+https://github.com/hpicgs/cbd-parser.git",
         "directory": "apps/webpack-ts"
     },
     "author": "Lukas Wagner",
@@ -15,8 +15,8 @@
         "build": "webpack build"
     },
     "dependencies": {
-        "@csv-parser/data": "1.0.0",
-        "@lukaswagner/csv-parser": "^0.3.0",
+        "@cbd-parser/data": "1.0.0",
+        "@hpicgs/cbd-parser": "^0.3.0",
         "pako": "^2.0.4"
     },
     "devDependencies": {

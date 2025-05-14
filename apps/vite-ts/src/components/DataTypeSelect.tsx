@@ -1,5 +1,5 @@
 import { Box, Select, Text } from '@chakra-ui/react';
-import { DataType } from '@lukaswagner/csv-parser';
+import { DataType } from '@hpicgs/cbd-parser';
 
 interface Props {
     label: string;

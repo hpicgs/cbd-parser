@@ -1,4 +1,4 @@
-import { CSV } from './csv.js';
+import { CSV } from './cbd.js';
 
 const loader = new CSV({
     includesHeader: true,
